@@ -26,11 +26,13 @@
     "http-server": "^0.11.1",
     "left-pad": "^1.1.3",
     "level-js": "^2.2.4",
+    "level-out": "1.0.0",
     "mocha": "^3.2.0",
     "request": "^2.88.0",
     "reuters-21578-json": "0.0.8",
     "should": "^10.0.0",
     "sqldown": "^2.1.0",
+    "sqlite3": "4.0.2",
     "standard": "8.1.0",
     "standard-changelog": "^1.0.1",
     "stopword": "^0.1.1",
@@ -38,6 +40,9 @@
     "term-vector": "0.1.2",
     "uglify-es": "^3.1.3",
     "written-number": "^0.5.0"
+  },
+  "optionalDependencies": {
+    "leveldown": "3.0.2"
   },
   "author": {
     "email": "fergusmcdowall@gmail.com",
