@@ -3,7 +3,7 @@
 
 const Readable = require('stream').Readable
 const SearchIndex = require('../../../')
-const levelup = require('levelup')
+const levelup = require('level-browserify')
 const logLevel = process.env.LOG_LEVEL || 'error'
 const sandbox = 'test/sandbox'
 const should = require('should')
